@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#menu-superior {
+    color: #FFFFFF;
+    background: #303030;
+    padding: 206px 0px 0px 62px;
+}
+
+#titulo-menu-superior {
+    font-size: 60px;
+    font-weight: 600;    
+    /*margin: 206px 0px 0px 62px;*/
+}
+
+#texto-menu-superior {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+
+#menu-informacional {
+    background: #F5F5F5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-items: center;
+    padding: 0px 150px 0px 150px;
+}
+
+.texto-informativo {
+    margin: 96px 0px 66px 20px;
+}
+
+.numeros {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#secao-historia {
+    padding: 60px 50px 30px 60px;
+    background: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#textos-secao-historia {
+    padding: 0px 50px 0px 50px;
+}
+
+#titulo-secao-historia {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#texto-secao-historia {
+    /* text-align: justify; */
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#img-secao-historia {
+    width: 510px;
+    height: 605px;
+}
+
+#secao-formulario {
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+    background: #303030;
+}
+
+#titulo-secao-formulario {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+input {
+    margin: 30px;
+    width: 508px;
+    height: 72px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+    background: #C07212;
+    margin-top: 60px;
+    border: 0px;
+    border-radius: 5px;
+    width: 286px;
+    height: 74px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background: #e89734;
+    transition-duration: 0.5s;
+}
